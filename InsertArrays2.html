@@ -1,0 +1,53 @@
+part 2 of insert Arrays
+<script type="text/javascript">
+
+  var cities = [];
+
+  cities[0] = "Maui";
+  cities[1] = "Las Vegas";
+  cities[2] = "Oahu";
+  cities[3] = "Orlando";
+  cities[4] = "Chicago";
+  cities[5] = "San Deigo";
+  cities[6] = "San Francisco";
+  cities[7] = "New Orleans";
+  cities[8] = "Island of Hawaii";
+  cities[9] = "Washington DC";
+  cities[10] = "Miami Beach";
+  cities[11] = "Key West";
+  cities[12] = "Charleston";
+  cities[13] = "Nashville";
+  cities[14] = "Savannah";
+  cities[15] = "Boston";
+  cities[16] = "Myrtle Beach";
+  cities[17] = "Branson";
+  cities[18] = "Seattle";
+  cities[19] = "Pigeon Forge";
+  cities[20] = "Sedona";
+  cities[21] = "San Antonio";
+  cities[22] = "Austin";
+  cities[23] = "Houston";
+  cities[24] = "Brooklyn";
+  cities[25] = "Miami";
+  cities[26] = "Kissimmee";
+  cities[27] = "Philadelphia";
+  //
+  alert("Array is at 0 " + cities[0]);
+
+  //shift out of order
+  cities.shift();
+  //Redisplay the new order
+  alert("Array is at 0 " + cities[0]);
+  //unshift
+  cities.unshift("The Bronx");
+  alert("Array is at 0 " + cities[0]);
+
+  //Displaying cities
+  alert("Array 0 = " + cities[2]);
+  alert("Array 0 = " + cities[3]);
+
+  //Adding two new cities after cities 1
+  cities.splice(2,2,"Portland","Cleveland");
+  alert(cities);
+
+</script>
